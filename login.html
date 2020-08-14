@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<style type="text/css">
+		body {margin: 0px;
+		      padding: 0px;
+		    box-sizing: border-box;}
+	.login{
+		height: 100vh;
+		background-image:linear-gradient(to bottom, blue, skyblue);
+		display: flex;
+		justify-content: center; 
+		align-items: center;
+		flex-flow: column;
+		flex-wrap: wrap; 
+	} 
+	.lbar{background-color: #e4e1e1;
+	     color:blue;
+	     max-width: 700px;
+	     height: 50px;
+	     width: 500px;
+	     line-height: 50px;
+	     padding: 0px 30px;
+	     margin-bottom: 10px;
+	 } 
+	 .fbar{
+	 	background-color: #e4e1e1;
+	     color:blue;
+	     max-width: 700px;
+	     height: 200px;
+	     width: 500px;
+	     padding: 80px 30px;
+	     display: flex;
+	     flex-flow: column;
+	     justify-content: center;
+	 }
+	 .lbar span {float: left;}
+	 .lbar a {float: right;}
+	 .na,.pa{height: 50px;}
+	 .na label,.pa label{float:left;}
+	 .na input,.pa input{float:right;
+	 	width: 250px;}
+	  input[type="submit"]{background-color: blue;
+	    color: #fff;
+	    width: 300px;
+	    padding: 10px 0px;
+	    margin: auto;} 
+	  form {display: flex;
+	  	    flex-flow: column;
+	      justify-content: center;}  
+	</style> 
+	<link rel="stylesheet" type="text/css" href="">
+</head>
+
+<body>
+<section class="login"> 
+	<section class="lbar">
+		<span>Login</span>
+		<a href="#">Don't you have an account</a>
+	</section> 
+	<section class="fbar">
+		<form>
+			<div class="na">
+			<label>User Name</label>
+			<input type="text" name="">
+		</div>
+		<div class="pa">
+			<label>Password</label>
+			<input type="password" name=""> 
+			</div>
+			
+			<input id="sig" type="submit" name="" value="Sign In">
+		 
+		</form> 
+	</section>
+</section>
+<script type="text/javascript" src="js/login.js"></script>  
+</body>
+</html>
